@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fort {
+    color: rgb(255, 196, 0);
+}
+
+header {
+    background-color: #000;
+    background-image: url(/imagens/audi-r8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    height: 1000px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+header > h2 {
+    color: #fff;
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+nav > a {
+    color: gold;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#content {
+    height: 500px;
+}
